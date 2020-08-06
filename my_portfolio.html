@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Okra Livia's Portfolio</title>
+  <link rel="icon" type="image/gif/png" href="images/OkraLiviaNew.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Avenir", sans-serif}
+</style>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="w3-content" style="max-width:1400px;">
+
+<!-- Header -->
+<header class="header" id="header"> 
+  <h1 style="font-size: 40px;"><b>OKRA LIVIA INKERI DIMLE</b></h1>
+  <div>Welcome to my portfolio.	&nbsp;<a href="mailto:okra.livia96@gmail.com" style="text-decoration: none; font-weight: 500; color: #188276;">Let's stay in touch!</a></div>
+  <p><a href="#project">Projects</a> &emsp; <a href="#edu">Education</a> &emsp; <a href="#other">Other</a> &emsp; <a href="#art">Art</a></p>
+</header> 
+
+<!-- Me Container (Grid) -->
+<div class="col-sm-4" id="me">
+	<div class="col-sm-4">
+
+		<div class="row">
+	    	
+	    	<div class="col-sm-6">
+	    		<a href="https://www.linkedin.com/in/okralivia-inkeri-dimle/" target="_blank">
+			    <img src="images/OkraLiviaNew.png" style="width: 13em;" class="meImg">
+			    </a>
+			    <div id="meInfo" style="padding-top: 1em; padding-bottom: 1em;">
+			      	<div id="okra"></div>
+			    </div>
+		    </div>
+
+	    	<div class="col-sm-6">
+	    		<div class="meImg" style="margin-left: 7em;"><h4 id="skill"></h4></div>
+				<div id="meInfo" style="padding-bottom: 1em;">
+					<div id="skills"></div>
+
+				</div>
+		    </div>
+
+		      <div class="col-sm-6"> 
+		      	<div class="meImg" style="margin-left: 4em;"><h4 id="langs">Languages:</h4></div>
+		      	<div id="meInfo">
+		      		<div id="lang"></div>
+		      	</div>
+		      </div>	
+
+  		</div>
+	</div>
+</div>
+
+
+<!-- Projects Container (Grid) -->
+<div class="col-sm-4" id="project">
+
+    <div class="col-sm-4" id="one">
+    	<p class="project">Projects</p>
+		<div class="row">
+    	
+<!-- Column 1 -->
+			<div class="column">
+				<img src="images/AR.png" alt="KTH" style="width:10em;" onclick="document.getElementById('modal').style.display='block'">
+				<div class="container" id="modal" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal').style.display='none'">&times;</span>
+						<h3 id="name"></h3>
+						<video class="videos" width="320" height="240" controls autoplay>
+							<source src="images/OsqledARen.mp4" type="video/mp4">
+						</video>
+						<p id="description"></p>
+						<a href="https://drive.google.com/file/d/1bPPWbkFj5iSb-ZaSJ42uwR5sTxY6bofi/view?usp=sharing" target="_blank">Vew the full video here</a>
+					</div>
+				</div>
+
+				<img src="images/studyPlaces.png" style="width:10em" onclick="document.getElementById('modal5').style.display='block'">
+				<div class="container" id="modal5" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal5').style.display='none'">&times;</span>
+						<h3 id="name5"></h3>
+						<img src="images/studyPlaces2.png" id="cozy" style="width: 45em;">
+						<p id="description5"></p>
+					</div>
+				</div>
+
+				<img src="images/CozyCorners.png" style="width:10em" onclick="document.getElementById('modal9').style.display='block'">
+				<div class="container" id="modal9" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal9').style.display='none'">&times;</span>
+						<h3 id="name9"></h3>
+						<img src="images/cozy.png" id="cozy" style="width: 20em;">
+						<p id="description9"></p>
+					</div>
+				</div>
+			</div>
+
+<!-- Column 2 -->
+			<div class="column">
+				<img src="images/hunt_the_thimble.png" alt="KTH" style="width:10em;" onclick="document.getElementById('modal2').style.display='block'">
+				<div class="container" id="modal2" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal2').style.display='none'">&times;</span>
+						<h3 id="name2"></h3>
+						<img src="images/hunt.png" id="cozy" style="width: 27em;">
+						<p id="description2"></p>
+					</div>
+				</div>
+
+				<img src="images/night_sky.png" alt="sleep" style="width:10em" onclick="document.getElementById('modal6').style.display='block'">
+				<div class="container" id="modal6" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal6').style.display='none'">&times;</span>
+						<h3 id="name6"></h3>
+						<video class="videos" width="320" height="240" controls autoplay>
+							<source src="images/bedtime.mp4" type="video/mp4">
+						</video>
+						<p id="description6"></p>
+						<a href="https://docs.google.com/presentation/d/1A8dEW5rg4Nn3iW3Qz9sYFKP9oyEFVbjNL5HM3icV3Io/edit#slide=id.p target="_blank">Link to presentation slides</a>
+					</div>
+				</div>
+
+				<img src="images/PerceptionPoster.png" style="width:10em" onclick="document.getElementById('modal10').style.display='block'">
+				<div class="container" id="modal10" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal10').style.display='none'">&times;</span>
+						<h3 id="name10"></h3>
+						<img src="images/perception.png" id="cozy" style="width: 45em;">
+						<p id="description10"></p>
+						<a href="images/DT2350_PerceptionPoster.pdf">Link to presentation poster</a>
+					</div>
+				</div>
+			</div>
+
+<!-- Column 3 -->
+			<div class="column">
+				<img src="images/LightForest.png" style="width:10em" onclick="document.getElementById('modal3').style.display='block'">
+				<div class="container" id="modal3" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal3').style.display='none'">&times;</span>
+						<h3 id="name3"></h3>
+							<img src="images/LightForest.gif" alt="light forest" style="height: 240px; width: auto;," id="cozy">
+						<p id="description3"></p>
+						<a href="https://drive.google.com/file/d/15AXryTpEiGn8IqukKAG0wD3YNczVnjry/view?usp=sharing" target="_blank">View the video demo here</a>
+					</div>
+				</div>
+
+				<img src="images/HiPPO2.png" style="width:10em" onclick="document.getElementById('modal7').style.display='block'">
+				<div class="container" id="modal7" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal7').style.display='none'">&times;</span>
+						<h3 id="name7"></h3>
+						<video class="videos" width="320" height="240" controls autoplay>
+							<source src="images/Demo_Trim.mp4" type="video/mp4">
+						</video>
+						<p id="description7"></p>
+					</div>
+				</div>
+			</div>
+
+<!-- Column 4 -->
+			<div class="column">
+				<img src="images/KTH.png" style="width:10em" onclick="document.getElementById('modal4').style.display='block'">
+				<div class="container" id="modal4" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal4').style.display='none'">&times;</span>
+						<h3 id="name4"></h3>
+						<img src="images/KTH-05.png" id="cozy" style="width: 20em;">
+						<p id="description4"></p>
+						<a href="https://drive.google.com/file/d/1P6beQjnApLQ3rBjA3SzqMVgWG1V_I8Rj/view?usp=sharing" target="_blank">Watch the video demo here</a>
+					</div>
+				</div>
+
+				<img src="images/M(yFave)Db.png" style="width:10em" onclick="document.getElementById('modal8').style.display='block'">
+				<div class="container" id="modal8" style="display: none;">
+					<div class="w3-container modal-content" id="content">
+						<span id="close-button" onclick="document.getElementById('modal8').style.display='none'">&times;</span>
+						<h3 id="name8"></h3>
+						<img src="images/myfave.png" id="cozy" style="width: 20em;">
+						<p id="description8"></p>
+					</div>
+				</div>
+			</div>
+  		</div>
+	</div>
+</div>
+
+<!-- Education Container (Grid) -->
+<div class="col-sm-4" id="edu">
+	<div class="col-sm-4" id="one">
+		<p class="project">Education</p>
+		<div class="row" id="schools">
+			<div class="col-sm-6" style="width: 50%; padding-left: 5em;">
+				<h4>B.Sc. Media Technology</h4>
+				<h5>KTH - Stockholm, Sweden</h5>
+				<p>2015-2018</p>
+			</div>
+
+			<div class="col-sm-6" style="width: 50%;">
+				<h4>M.Sc.Eng. Media Technology, M.Sc. Interactive Media Technology</h4>
+				<h5>KTH - Stockholm, Sweden</h5>
+				<p>2018-present</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- others Container (Grid) -->
+<div class="col-sm-4" id="other">
+	<div class="col-sm-4" id="one">
+		<p class="project">Other Engagements</p>
+		<div class="row">
+
+<!-- Netlight -->
+			<div class="col-sm-6 work">
+				<a href="https://www.netlight.com/" target="_blank">
+				<img src="images/Netlight.png" class="othersImg" style="display:inline; width:8em" alt="Netlight">
+				</a>
+				<div class="othersInfo">
+					<div id="netlightInfo"></div>
+					<br>
+					Here are some of the work I have done at Netlight:
+					<div class="col-sm-3 nlImg">
+						<img src="images/nl/christmas_card_3.png" alt="A christmas card where the gingerbread have Netlight's logo on them, that is the stylized bird." style="width:9em;margin: 8px;" onclick="myFunction(this);">
+						<img src="images/nl/Edge Aacademy-08.png" alt="The logo for Edge Academy 2020. The theme was Connecting the dots." style="width:9em; margin: 8px;" onclick="myFunction(this);">
+						<img src="images/nl/Housewarming Party.png" alt="Invitation to the housewarming party at the Stockholm office." style="width:9em;margin: 8px;" onclick="myFunction(this);">
+						<img src="images/nl/global talent night.png" alt="The logo for the online event Global Talent night that was hoseted in spring 2020." style="width:9em; margin: 8px;" onclick="myFunction(this);">
+					</div>
+				</div>
+			</div>
+
+<!-- Osqledaren -->
+			<div class="col-sm-6 work">
+				<a href="http://osqledaren.se/" target="_blank">
+				<img src="images/OL.png" class="othersImg" style="display:inline; width:8em" alt="OL">
+				</a>
+				<div class="othersInfo">
+					<div id="ol"></div> 
+				</div>
+			</div>
+
+<!-- Studs -->
+			<div class="col-sm-6 work">
+				<a href="https://studieresan.se/" target="_blank">
+				<img src="images/studs.png" class="othersImg" style="display:inline; width:8em" alt="Studs">
+				</a>
+				<div  class="othersInfo">
+					<div id="studs"></div> 
+				</div>
+			</div>
+
+<!-- Mottagningen -->
+			<div class="col-sm-6 work">   
+				<a href="http://www.medieteknik.com/namnder/mottagningen" target="_blank">
+				<img src="images/mtgn.png" class="othersImg" style="display:inline; width:8em" alt="Studs">
+				</a>
+				<div class="othersInfo">
+					<div id="mtgn"></div> 
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!-- Art Container (Grid) -->
+<div class="col-sm-4" id="art">
+	<div class="col-sm-4" id="one">
+	<p class="project">Art</p>
+	<div style="padding-left: 10px; padding-bottom: 2em;" id="intro"></div>
+	<div class="row">
+		<div class="col-sm-3">
+			<img src="images/art/fika2.png" alt="This image I created from scratch in Blender." style="width:15em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/donut.png" alt="This is a close up of the donut that I made in Blender." style="width:15em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/2 öl upside down.png" alt="I made Mikkeller inspired beer labels for my friends who moved to Australia." style="width:15em; margin: 10px;" onclick="myFunction(this);">
+		</div>
+
+		<div class="col-sm-3">
+			<img src="images/art/dtiys2.png" alt="This is a draw this in your style-challenge piece. The image to the left is my version of the original image to the right." style="width:15em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/IMG_2499e.jpg" alt="This is another piece for a draw this in your style-challenge." style="width:15em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/Cryptocurrency.png" alt="Illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin"" style="width:15em; margin: 10px;" onclick="myFunction(this);">
+		</div>
+
+		<div class="col-sm-3">
+			<img src="images/art/paverka_industrin.png" alt="Illustration in Osqledaren #4 19/20 for the article Påverka industrin." style="max-width:10em; max-height: 35em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/lovehate.png" alt="Illustration in Osqledaren #3 18/19 for the article Sektionerna tycker till om THS" style="max-width:10em; max-height: 35em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/fish2.png" alt="Illustration made with aquarelle colors and pen." style="max-width:10em; max-height: 35em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/sangria.png" alt="Illustration in Osqledaren #4 17/18 for the article M i Madrid" style=width:15em; margin: 10px;" onclick="myFunction(this);">
+		</div>
+
+		<div class="col-sm-3">
+			<img src="images/art/cosmos.png" alt="Illustration made with Promakers-pens." style="max-width:10em; max-height: 25em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/roses.png" alt="Illustration made with aquarelle colors and pen." style="max-width:10em; max-height: 25em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/rose.png" alt="Illustration for Osqledaren #4 17/18" style="max-width:10em; max-height: 35em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/dahlia.png" alt="Illustration made with Promakers-pens." style="max-width:10em; max-height: 25em; margin: 10px;" onclick="myFunction(this);">
+		</div>
+
+		<div class="col-sm-3">
+			<img src="images/art/sauna.png" alt="Illustration in Osqledaren #3 18/19 for the article What to do in Nymble" style="max-width:10em; max-height: 35em; margin: 10px;" onclick="myFunction(this);">
+			<img src="images/art/hur_woke_är_KTH.png" alt="Illustration in Osqledaren #3 19/20 for the article Replik till Hur woke är KTH" style="max-width:10em; max-height: 35em; margin: 10px;" onclick="myFunction(this);">
+		</div>
+	</div>
+</div>
+
+	<!-- Image Modal -->
+	<div class="imgContainer" id="imgContainer">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="max-width: 800px; max-height: 500px;" onclick="this.parentElement.style.display='none'">
+		<div id="imgtext" style="text-align: center;"></div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer>
+	<div style="margin-top: 0.5em; color: #b58d0f; font-size: 16px;"><a href="#header" style="text-decoration: none;">Back to top</a></div>
+	<div style="color: #b58d0f; font-size: 13px;">Contact me: <a href="mailto:okra.livia96@gmail.com">okra.livia96@gmail.com</a></div>
+	<div style="font-size: 13px; color: #bcb52f; margin-bottom: 1em;">Creadet by Okra Livia Inkeri Dimle 2020</div>
+	
+</footer>
+
+
+<script src="info.js"></script>
+<script src="modal.js"></script>
+</body>
+</html>
